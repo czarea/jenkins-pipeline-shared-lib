@@ -72,9 +72,9 @@ pipeline {
 @Library('shared-libs')
 
 def map = [:]
-map.put('remote_host','192.168.0.66')
-map.put('repo_url','http://219.151.11.69:11680/kll-java/gateway.git')
-map.put('branch_name','test')
-map.put('jar_name','gateway')
+map.put('remote_host','xxx.xxx.xxx.xxx')
+map.put('repo_url','git@xxx.git')
+map.put('branch_name','xxx')
+map.put('jar_name','xxx')
 build(map)
 ```
